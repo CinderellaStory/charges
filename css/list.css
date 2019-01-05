@@ -14,17 +14,24 @@ h2 {
     padding: 0.3rem 0.5rem 0.2rem 0.5rem;
 }
 
+.warpper {
+    background: #fff;
+    margin: 0.2rem;
+    border-radius: 0.2rem;
+}
+
 .warpper ul {
     display: flex;
     flex-wrap: wrap;
 }
 
 .warpper ul li {
-    width: 30%;
+    width: 46%;
+    list-style: none;
     text-align: center;
     border-radius: 0.1rem;
     background: #fff;
-    margin-left: 0.2rem;
+    margin: 0.2rem 0 0 0.2rem;
     /* padding: 0 0.3rem; */
     box-shadow: 0 2px 8px 0 rgba(2, 2, 2, 0.08);
 }
