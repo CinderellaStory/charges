@@ -1,0 +1,44 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+}
+
+body {
+    font-size: 0.2rem;
+}
+
+.warpper {
+    width: 100%;
+    background: #303030;
+    padding: 0.6rem 0;
+}
+
+.group {
+    width: 80%;
+    text-align: center;
+    margin: 0 auto 0.6rem;
+    background: #34a1fa;
+    height: 3rem;
+    border-radius: 0.2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.group a {
+    color: #fff;
+    font-weight: normal
+}
+
+h3 {}
+
+em {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 0.36rem;
+}
