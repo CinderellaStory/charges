@@ -20,22 +20,44 @@ body {
 
 .group {
     width: 80%;
-    text-align: center;
-    margin: 0 auto 0.6rem;
-    background: #34a1fa;
+    /* text-align: center; */
+    margin: 0 auto 0.5rem;
+    background: #42a86d;
+    background: url(../images/1.png) no-repeat center center;
     height: 3rem;
     border-radius: 0.2rem;
-    display: flex;
+    /* display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center; */
 }
 
 .group a {
     color: #fff;
-    font-weight: normal
 }
 
-h3 {}
+h2,
+h6 {
+    padding: 0 0.5rem;
+}
+
+h2 {
+    padding-top: 0.5rem;
+}
+
+p {
+    padding: 0.2rem 0.5rem;
+    color: #f2fcff;
+}
+
+h5 {
+    text-align: right;
+    padding: 0 0.5rem 0.5rem 0;
+}
+
+h6 {
+    font-size: 0.36rem;
+    /* padding-top: 0.2rem; */
+}
 
 em {
     font-style: normal;
